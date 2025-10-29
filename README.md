@@ -127,13 +127,17 @@ Nå skal vi "starte" imaget. Når et image kjører, kalles det en **kontainer**.
 
 I ekte drift må vi oppdatere ting. La oss endre nettsiden.
 
-1.  Bruk en enkel teksteditor (nano) for å endre hilsenen:
+1.  Bruk vim for å endre hilsenen:
     ```bash
-    nano index.html
+    vim index.html
     ```
 
-2.  Endre `<h1>Hello World! 👋</h1>` til `<h1>Jeg har oppdatert siden min! 🚀</h1>`.
-3.  Lagre og lukk `nano` (Trykk **Ctrl+X**, så **Y**, så **Enter**).
+2.  I vim:
+   - Trykk **i** for å gå inn i "insert mode"
+   - Naviger til linjen med `<h1>Hello World! 👋</h1>`
+   - Endre teksten til `<h1>Jeg har oppdatert siden min! 🚀</h1>`
+   - Trykk **Esc** for å gå ut av "insert mode"
+   - Skriv **:wq** og trykk **Enter** for å lagre og lukke
 
 4.  **VIKTIG:** Du må stoppe og fjerne den *gamle* kontaineren før du kan starte en ny på samme port.
     * Finn ID-en til kontaineren: `docker ps`

@@ -127,13 +127,17 @@ Now we will "start" the image. When an image is running, it is called a **contai
 
 In real-world operations, we need to update things. Let's change the website.
 
-1.  Use a simple text editor (nano) to change the greeting:
+1.  Use vim to change the greeting:
     ```bash
-    nano index.html
+    vim index.html
     ```
 
-2.  Change `<h1>Hello World! 👋</h1>` to `<h1>I have updated my site! 🚀</h1>`.
-3.  Save and exit `nano` (Press **Ctrl+X**, then **Y**, then **Enter**).
+2.  In vim:
+   - Press **i** to enter "insert mode"
+   - Navigate to the line with `<h1>Hello World! 👋</h1>`
+   - Change the text to `<h1>I have updated my site! 🚀</h1>`
+   - Press **Esc** to exit "insert mode"
+   - Type **:wq** and press **Enter** to save and quit
 
 4.  **IMPORTANT:** You must stop and remove the *old* container before you can start a new one on the same port.
     * Find the ID of the running container: `docker ps`
