@@ -6,6 +6,34 @@ We will use **Play with Docker (PWD)**, which provides a terminal directly in yo
 
 ---
 
+### Step 0: Create a Docker Hub account (5 min)
+
+Before you can use Play with Docker, you need a free Docker Hub account.
+
+1. Go to [Docker Hub](https://hub.docker.com/)
+2. Click **Sign Up**
+3. You have two options to sign up:
+
+   **Option A: Use your Google account (fastest)**
+   - Click **Continue with Google**
+   - Log in with your Google account
+   - Choose a unique Docker ID (username)
+   - Accept the terms
+
+   **Option B: Create a new account**
+   - Fill out the form with:
+     - **Docker ID**: Choose a unique username
+     - **Email**: Your email address
+     - **Password**: A strong password
+   - Click **Sign Up**
+   - Check your email and verify your account by clicking the link Docker sends you
+
+4. Log in to Docker Hub with your new account
+
+**Tip:** Remember your username - you'll need it to log in to Play with Docker!
+
+---
+
 ### Step 1: Prepare the terminal (5 min)
 
 1.  Go to [Play with Docker](https://labs.play-with-docker.com/) and log in with your Docker Hub account.

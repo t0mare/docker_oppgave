@@ -6,6 +6,34 @@ Vi bruker **Play with Docker (PWD)**, som gir oss en terminal i nettleseren.
 
 ---
 
+### Trinn 0: Opprett Docker Hub-konto (5 min)
+
+Før du kan bruke Play with Docker, trenger du en gratis Docker Hub-konto.
+
+1. Gå til [Docker Hub](https://hub.docker.com/)
+2. Klikk på **Sign Up** (Registrer deg)
+3. Du har to alternativer for å registrere deg:
+
+   **Alternativ A: Bruk Google-kontoen din (raskest)**
+   - Klikk på **Continue with Google**
+   - Logg inn med din Google-konto
+   - Velg et unikt Docker ID (brukernavn)
+   - Godta vilkårene
+
+   **Alternativ B: Opprett ny konto**
+   - Fyll ut skjemaet med:
+     - **Docker ID**: Velg et unikt brukernavn
+     - **Email**: Din e-postadresse
+     - **Password**: Et sterkt passord
+   - Klikk **Sign Up**
+   - Sjekk e-posten din og bekreft kontoen ved å klikke på lenken Docker sender deg
+
+4. Logg inn på Docker Hub med din nye konto
+
+**Tips:** Husk brukernavnet ditt - du trenger det for å logge inn på Play with Docker!
+
+---
+
 ### Trinn 1: Klargjør terminalen (5 min)
 
 1.  Gå til [Play with Docker](https://labs.play-with-docker.com/) og logg inn med Docker Hub-kontoen din.
