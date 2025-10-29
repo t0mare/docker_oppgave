@@ -20,15 +20,13 @@ We will use **Play with Docker (PWD)**, which provides a terminal directly in yo
 Now we will "clone" (download) the source code from GitHub to your PWD terminal.
 
 1.  Run this command to download the project:
-    *(Replace the URL with the one your supervisor gave you)*
     ```bash
-    git clone [https://github.com/](https://github.com/)[YOUR_USERNAME]/[YOUR_REPO_NAME].git
+    git clone https://github.com/t0mare/docker_oppgave.git
     ```
 
 2.  Enter the directory you just downloaded:
-    *(Replace [FOLDER_NAME] with the name of the repo)*
     ```bash
-    cd [FOLDER_NAME]
+    cd docker_oppgave
     ```
 
 3.  List the files you have fetched. You should see `README.md`, `index.html`, and `Dockerfile`.

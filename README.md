@@ -20,15 +20,13 @@ Vi bruker **Play with Docker (PWD)**, som gir oss en terminal i nettleseren.
 Nå skal vi "klone" (laste ned) kildekoden fra GitHub til PWD-terminalen.
 
 1.  Kjør denne kommandoen for å laste ned prosjektet:
-    *(Bytt ut URL-en med den du fikk av veileder)*
     ```bash
-    git clone [https://github.com/](https://github.com/)[DITT_BRUKERNAVN]/[DITT_REPO_NAVN].git
+    git clone https://github.com/t0mare/docker_oppgave.git
     ```
 
 2.  Gå inn i mappen du nettopp lastet ned:
-    *(Bytt ut [MAPPE_NAVN] med navnet på repoet)*
     ```bash
-    cd [MAPPE_NAVN]
+    cd docker_oppgave
     ```
 
 3.  Se filene du har hentet. Du skal se `README.md`, `index.html` og `Dockerfile`.
