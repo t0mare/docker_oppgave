@@ -36,10 +36,23 @@ Before you can use Play with Docker, you need a free Docker Hub account.
 
 ### Step 1: Prepare the terminal (5 min)
 
-1.  Go to [Play with Docker](https://labs.play-with-docker.com/) and log in with your Docker Hub account.
-2.  Click **Start**.
-3.  Click **+ ADD NEW INSTANCE** on the left side.
-4.  You now have a Linux terminal. **All commands from now on must be written in this terminal.**
+1. Go to [Play with Docker](https://labs.play-with-docker.com/) and log in with your Docker Hub account.
+2. Click **Start**.
+3. Click **+ ADD NEW INSTANCE** on the left side.
+4. You now have a Linux terminal in your browser.
+
+**Optional: Connect via SSH from your local machine**
+
+If you prefer to use your own terminal on your local machine:
+
+1. In the PWD interface, click **SSH** (top right, next to the instance name)
+2. Copy the SSH command shown (e.g., `ssh ip172-18-0-x-xxxx@direct.labs.play-with-docker.com`)
+3. Open your local terminal (Terminal on Mac/Linux, or PowerShell/Git Bash on Windows)
+4. Paste and run the SSH command
+5. Type `yes` when asked to continue connecting
+6. You are now connected to the PWD instance from your local terminal
+
+**All commands below should be typed in the terminal** (either in the browser or via SSH).
 
 ---
 

@@ -36,10 +36,23 @@ Før du kan bruke Play with Docker, trenger du en gratis Docker Hub-konto.
 
 ### Trinn 1: Klargjør terminalen (5 min)
 
-1.  Gå til [Play with Docker](https://labs.play-with-docker.com/) og logg inn med Docker Hub-kontoen din.
-2.  Klikk på **Start**.
-3.  Klikk på **+ ADD NEW INSTANCE** på venstre side.
-4.  Du har nå en Linux-terminal. **Alle kommandoer skal skrives i denne terminalen.**
+1. Gå til [Play with Docker](https://labs.play-with-docker.com/) og logg inn med Docker Hub-kontoen din.
+2. Klikk på **Start**.
+3. Klikk på **+ ADD NEW INSTANCE** på venstre side.
+4. Du har nå en Linux-terminal i nettleseren.
+
+**Valgfritt: Koble til med SSH fra din lokale maskin**
+
+Hvis du foretrekker å bruke din egen terminal på din lokale maskin:
+
+1. I PWD-grensesnittet, klikk på **SSH** (øverst til høyre ved siden av instans-navnet)
+2. Kopier SSH-kommandoen som vises (f.eks. `ssh ip172-18-0-x-xxxx@direct.labs.play-with-docker.com`)
+3. Åpne terminalen på din lokale maskin (Terminal på Mac/Linux, eller PowerShell/Git Bash på Windows)
+4. Lim inn og kjør SSH-kommandoen
+5. Skriv `yes` når du blir spurt om å fortsette tilkoblingen
+6. Du er nå koblet til PWD-instansen fra din lokale terminal
+
+**Alle kommandoer nedenfor skal skrives i terminalen** (enten i nettleseren eller via SSH).
 
 ---
 
